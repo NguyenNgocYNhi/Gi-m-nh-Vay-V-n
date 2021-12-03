@@ -1,4 +1,3 @@
-
 function solver() {
 
 
@@ -19,8 +18,16 @@ thoiHan = Number(thoiHan);
 
 var soTienCoThe = (thuNhapThang * 0.6)
 console.log(soTienCoThe)
+document.getElementById("soTienCoThe").textContent = "Số Tiền Có Thể Trả: " + soTienCoThe.toFixed(2);
 var soTienPhaiTra = (canVay * (1+ ((laiSuat/100)/12)))/ thoiHan;
 console.log(soTienPhaiTra)
+document.getElementById("soTienPhaiTra").textContent = "Số Tiền Phải Trả: " + soTienPhaiTra.toFixed(2);
+
+if (isNaN(soTienCoThe && soTienPhaiTra) == true) {
+    alert("Vui Lòng Nhập Số!")
+    return
+}
+
 
 var ketQua
 
