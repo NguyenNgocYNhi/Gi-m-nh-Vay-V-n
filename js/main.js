@@ -47,7 +47,8 @@ else {
 }
 
 ketQua =  document.getElementById("ketQua").style.display = "block";
-
+document.getElementById("soTienCoThe").style.display = "block";
+document.getElementById("soTienPhaiTra").style.display = "block";
 
 }
 
