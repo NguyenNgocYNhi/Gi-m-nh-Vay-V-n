@@ -27,6 +27,11 @@ if ((isNaN(soTienCoThe && soTienPhaiTra) == true)) {
     alert("Vui Lòng Nhập Số!")
     return
 }
+    
+if ((thuNhapThang || canVay || laiSuat || thoiHan) < 0) {
+    alert("Vui Lòng Nhập Số Dương!")
+    return
+}
 
 
 var ketQua
