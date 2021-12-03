@@ -58,5 +58,6 @@ function reset() {
     document.getElementById("laiSuat").value = "";
     document.getElementById("thoiHan").value = "";
     document.getElementById("ketQua").style.display = "none";
-
+    document.getElementById("soTienCoThe").style.display = "none";
+    document.getElementById("soTienPhaiTra").style.display = "none";
 }
